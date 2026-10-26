@@ -24,4 +24,13 @@ public class MyTestNG {
 			System.out.print("Opened Yahoo");
 			driver.quit();
 }
+		@Test
+		public void OpenMeta() {
+			WebDriverManager.chromedriver().setup();
+			WebDriver driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.meta.com");
+			System.out.print("Opened Meta");
+		
+		}
 }
