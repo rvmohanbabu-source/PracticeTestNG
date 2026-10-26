@@ -33,4 +33,13 @@ public class MyTestNG {
 			System.out.print("Opened Meta");
 		
 		}
+		@Test
+		public void OpenApple() {
+			WebDriverManager.chromedriver().setup();
+			WebDriver driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.apple.com");
+			System.out.print("Opened Meta");
+		
+		}
 }
