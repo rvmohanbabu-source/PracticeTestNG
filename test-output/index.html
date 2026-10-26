@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="MyTestNG" class="method navigator-link" hash-for-method="OpenApple">OpenApple</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="MyTestNG" class="method navigator-link" hash-for-method="OpenGoogle">OpenGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="MyTestNG" class="method navigator-link" hash-for-method="OpenMeta">OpenMeta</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="MyTestNG" class="method navigator-link" hash-for-method="OpenTesla">OpenTesla</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="MyTestNG" class="method navigator-link" hash-for-method="OpenYahoo">OpenYahoo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,9 +146,37 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="OpenApple">
+                  </a> <!-- OpenApple -->
+                  <span class="method-name">OpenApple</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="OpenGoogle">
                   </a> <!-- OpenGoogle -->
                   <span class="method-name">OpenGoogle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenMeta">
+                  </a> <!-- OpenMeta -->
+                  <span class="method-name">OpenMeta</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenTesla">
+                  </a> <!-- OpenTesla -->
+                  <span class="method-name">OpenTesla</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenYahoo">
+                  </a> <!-- OpenYahoo -->
+                  <span class="method-name">OpenYahoo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +184,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/fb/dc2w68dj57dgb8tr_2xxwk980000gn/T/testng-eclipse-978975435/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/fb/dc2w68dj57dgb8tr_2xxwk980000gn/T/testng-eclipse--1107951853/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +193,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;MyTestNG&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;OpenGoogle&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- MyTestNG --&gt;
+      &lt;class name=&quot;MyTestNG&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,16 +233,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'OpenGoogle')
+data.setCell(0, 1, 'OpenMeta')
 data.setCell(0, 2, 'MyTestNG')
-data.setCell(0, 3, 1870);
+data.setCell(0, 3, 4375);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'OpenYahoo')
+data.setCell(1, 2, 'MyTestNG')
+data.setCell(1, 3, 2319);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'OpenApple')
+data.setCell(2, 2, 'MyTestNG')
+data.setCell(2, 3, 1966);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OpenTesla')
+data.setCell(3, 2, 'MyTestNG')
+data.setCell(3, 3, 1495);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'OpenGoogle')
+data.setCell(4, 2, 'MyTestNG')
+data.setCell(4, 3, 1230);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,8 +286,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">MyTestNG</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">OpenGoogle</span>
+                <span class="method-name">OpenApple</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OpenGoogle</span>
+                <span class="method-start">1967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OpenMeta</span>
+                <span class="method-start">3198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OpenTesla</span>
+                <span class="method-start">7574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OpenYahoo</span>
+                <span class="method-start">9070 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

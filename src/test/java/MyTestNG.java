@@ -31,6 +31,7 @@ public class MyTestNG {
 			driver.manage().window().maximize();
 			driver.get("https://www.meta.com");
 			System.out.print("Opened Meta");
+			driver.quit();
 		
 		}
 		@Test
@@ -40,15 +41,8 @@ public class MyTestNG {
 			driver.manage().window().maximize();
 			driver.get("https://www.apple.com");
 			System.out.print("Opened Meta");
+			driver.quit();
 		
-		}
-		@Test
-		public void OpenTesla() {
-			WebDriverManager.chromedriver().setup();
-			WebDriver driver = new ChromeDriver();
-			driver.manage().window().maximize();
-			driver.get("https://www.teslsa.com");
-			System.out.print("Opened Meta");
 		
 		}
 }
