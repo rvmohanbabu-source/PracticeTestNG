@@ -42,4 +42,13 @@ public class MyTestNG {
 			System.out.print("Opened Meta");
 		
 		}
+		@Test
+		public void OpenTesla() {
+			WebDriverManager.chromedriver().setup();
+			WebDriver driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.teslsa.com");
+			System.out.print("Opened Meta");
+		
+		}
 }
